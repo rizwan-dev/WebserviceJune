@@ -1,10 +1,12 @@
-package com.relfor.webserviceexample;
+package com.relfor.webserviceexample.adapter;
 
 import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.relfor.webserviceexample.R;
 
 public class MoviesListViewHolder extends RecyclerView.ViewHolder {
 

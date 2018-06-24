@@ -1,14 +1,14 @@
-package com.relfor.webserviceexample;
+package com.relfor.webserviceexample.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.Toast;
 
+import com.relfor.webserviceexample.adapter.MoviesListAdapter;
+import com.relfor.webserviceexample.R;
 import com.relfor.webserviceexample.data.Movie;
 import com.relfor.webserviceexample.service.ApiClient;
 import com.relfor.webserviceexample.service.MoviesEndpoint;

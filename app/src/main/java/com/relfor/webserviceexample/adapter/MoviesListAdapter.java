@@ -1,4 +1,4 @@
-package com.relfor.webserviceexample;
+package com.relfor.webserviceexample.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
+import com.relfor.webserviceexample.R;
 import com.relfor.webserviceexample.data.Movie;
 
 import java.util.List;
