@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Movie>> call, Response<List<Movie>> response) {
                 List<Movie> moviesList = response.body();
-                MoviesListAdapter moviesListAdapter = new MoviesListAdapter(moviesList);
+                MoviesListAdapter moviesListAdapter = new MoviesListAdapter(moviesList, MainActivity.this);
                 rvMovies.setAdapter(moviesListAdapter);
             }
 
